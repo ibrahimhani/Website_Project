@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(227, 206, 151);
+    margin: 20px 0px;
+    font-family: monospace;
+}
+
+.wrapper{
+    width: 800px;
+    margin:0 auto;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+header{
+    padding:50px;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    float: left;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float:right;
+    background-color: rgb(225, 185, 84);
+    padding: 10px;
+
+}
+
+footer{
+    padding: 20px;
+    border-top: 1px solid skyblue;
+    text-align:center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+aside h3{
+    background-color: rgb(208, 9, 62);
+    color: whitesmoke;
+    padding: 10px;
+}
+
+aside a{
+    color:black;
+}
+
+h2,h3{
+    margin: 0;
+}
+
+article{
+    padding:30px 0;
+    border-bottom: 1px solid grey;
+}
+
+article:last-child{
+    border-bottom: 0px;
+}
+
+nav{
+    float: right;
+}
